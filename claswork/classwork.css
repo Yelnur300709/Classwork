@@ -7,14 +7,11 @@
     width: 200px;
     height: 200px;
     background-color: blue;
-    animation: KUBIK 1s infinite;
+    animation: KUBIK 0.5s 1s;
 }
 @keyframes KUBIK {
     0%{
         rotate: 0deg;
-    }
-    50%{
-        rotate: 180deg;
     }
     100%{
         rotate: 360deg;
